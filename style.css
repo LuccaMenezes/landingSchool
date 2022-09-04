@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&family=Poppins:wght@300;600;700&display=swap');
+
+
+
+body{
+    margin: 0 auto;
+    max-height: 100vh;
+    padding: 15px;
+    max-width: 1200px;
+}
+.logo{
+    cursor: pointer;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.logo span{
+    color: #846BFA;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    list-style: none;
+    font-size: 1.1rem;
+    color: #363663;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    color: #846BFA;
+    transition: 0.2s;
+}
+li .sing{
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #846BFA;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+li .sing:hover{
+    background-color: #836bfad7;
+    transition: 0.2;
+}
+li .home{
+    font-weight: 700;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+.title{
+    font-size: 2.8rem;
+    font-family: Poppins;
+    flex-direction: column;
+    line-height: 10px;
+    font-weight: 700;
+    color: #363663;
+}
+.sub-title{
+    font-family: Poppins;
+    font-weight: 300;
+}
+
+article{
+    margin-left: 100px;
+}
+.enviar{
+    font-size: 1.2rem;
+    font-family: Poppins;
+    font-weight: 700;
+    background-color: #846BFA;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+.enviar:hover{
+    background-color: #836bfad7;
+    transition: 0.2s;
+}
